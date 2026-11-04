@@ -1,0 +1,10 @@
+# Keep reviewed HDL, IP and bitstream bytes unchanged across platforms.
+* -text
+*.bit binary
+# Preserve original generated-source/report formatting without whitespace churn.
+fpga/src/** -whitespace
+fpga/scripts/** -whitespace
+tools/anlu_tools.ps1 -whitespace
+evidence/*.log -whitespace
+evidence/*.area -whitespace
+evidence/*.ts -whitespace

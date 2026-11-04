@@ -1,0 +1,739 @@
+{
+  "version": "00C14116",
+  "seed": 2,
+  "original_source_scope_sha256": "1f6d525ff7ebafc768f142aa3ad255e82c9ea937547041f7cc49c2c0fe6ecc8e",
+  "original_gate_sha256": "555a296be2dd2f403c53ec5b9d39a38145517b61a5460466808b69917df7e0f5",
+  "omitted_from_original_scope": [
+    "user_source/constraints_source/.edid_debug_bak.cwc (unused watch backup)"
+  ],
+  "files": [
+    {
+      "path": "fpga/src/td_project/AC201_tf_hdmi.al",
+      "original_sha256": "cddc003f125b2bc6a751a60b7b85541d698884b22043c8135ffa30a78a1e6d99",
+      "published_sha256": "1a4c58d4a4b6be6922f5585c43aa2b920db6493f19ac56e38c17a080492bcab1",
+      "changes": [
+        "TD root Path changed to dot; source list and synthesis parameters unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/td_project/al_ip/PLL.ipc",
+      "original_sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5",
+      "published_sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/td_project/al_ip/PLL.v",
+      "original_sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+      "published_sha256": "8fe1ed9f3f916f1cf92cb87d3687e4bbc6cdf28a264a73045c1003e22227f4bc",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/td_project/al_ip/PLL.vhd",
+      "original_sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494",
+      "published_sha256": "4843a64c9f5beddd7acd47c32c32d4401bc658685bb62d32c38a0617f919c464",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/constraints_source/edid_debug.cwc",
+      "original_sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "published_sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/constraints_source/pin.adc",
+      "original_sha256": "234048b30cb6bb3bfc76ae081cbdcad4b2596ff55dca81ad8e7856cd9e3bf759",
+      "published_sha256": "234048b30cb6bb3bfc76ae081cbdcad4b2596ff55dca81ad8e7856cd9e3bf759",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/constraints_source/timing.sdc",
+      "original_sha256": "977abcdb8b6c4df93cbd8fe407d5dfa5ab2710ce45214d7713f583f91a732146",
+      "published_sha256": "977abcdb8b6c4df93cbd8fe407d5dfa5ab2710ce45214d7713f583f91a732146",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/audio_arc_calculate.v",
+      "original_sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc",
+      "published_sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/bmp_scale_engine.v",
+      "original_sha256": "cde50900d2307674272134b2043c1cd26b53f1372fad913eef1b227a7f9706e2",
+      "published_sha256": "cde50900d2307674272134b2043c1cd26b53f1372fad913eef1b227a7f9706e2",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/fat32_catalog.v",
+      "original_sha256": "3c377065d65e4e95ae16c1e60a5a87b7b57153c35a4627b63795b17e73c60114",
+      "published_sha256": "3c377065d65e4e95ae16c1e60a5a87b7b57153c35a4627b63795b17e73c60114",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/fat32_dual_file_sector.v",
+      "original_sha256": "084b7dc884b1b33e3ebc2804283bc820b0e5a38eb248e7dc14a6303d70f67bfb",
+      "published_sha256": "084b7dc884b1b33e3ebc2804283bc820b0e5a38eb248e7dc14a6303d70f67bfb",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/frame_buffer_rgb888.v",
+      "original_sha256": "df605f5245cf23d2da0dfc6f437a4819c3c5becb9fcc90a794d1ab4d0a725d89",
+      "published_sha256": "df605f5245cf23d2da0dfc6f437a4819c3c5becb9fcc90a794d1ab4d0a725d89",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/gen_player_spectrum_coeffs.py",
+      "original_sha256": "fcd5393efd771e0cc7008de8b2f8b57509c9ecf4aa94a9ce2e70763b2f795618",
+      "published_sha256": "fcd5393efd771e0cc7008de8b2f8b57509c9ecf4aa94a9ce2e70763b2f795618",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/gen_private_spectrum_rom.py",
+      "original_sha256": "58adf8e8d3181973de172a5b0a1a0a9d59078c975a8dc3b41afa533568739a3f",
+      "published_sha256": "58adf8e8d3181973de172a5b0a1a0a9d59078c975a8dc3b41afa533568739a3f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+      "original_sha256": "0ff1ab2b39e1294c3aae814bf5a252c47c284c2cdb9568adf02d3c6cfd8ddd0b",
+      "published_sha256": "0ff1ab2b39e1294c3aae814bf5a252c47c284c2cdb9568adf02d3c6cfd8ddd0b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "original_sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "published_sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "original_sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "published_sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/include/global_def.v",
+      "original_sha256": "4712c00a4f52be2c643b2ac11c57bd554793e739faf1360af657b5eaec2dee9b",
+      "published_sha256": "4712c00a4f52be2c643b2ac11c57bd554793e739faf1360af657b5eaec2dee9b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "original_sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "published_sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "original_sha256": "eba99d0903a7eff706553b4d21a15afb560c428a58556e373a29f4cc1f41ec5b",
+      "published_sha256": "eba99d0903a7eff706553b4d21a15afb560c428a58556e373a29f4cc1f41ec5b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "original_sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "published_sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "original_sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "published_sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "original_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "published_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "original_sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8",
+      "published_sha256": "c843cbd769c03de5423d03af9a0ecb95b55810e616aaf2923adc5bcf39df0196",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "original_sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d",
+      "published_sha256": "222fd0aade3b5c8ae972ff43aa3ce4be43b184935882faa289eaa96a6900d142",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "original_sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371",
+      "published_sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "original_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "published_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "original_sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835",
+      "published_sha256": "cd0902551309d9313b5c086c7efe5f17d5240d25ec59e6eee2ead0f0cafa2fc6",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "original_sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349",
+      "published_sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "original_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "published_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "original_sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564",
+      "published_sha256": "6e45535c9103b34a8f9a5025a523204ccdc725d12967bae4ed6f24d8abe748a4",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sdram.ipc",
+      "original_sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201",
+      "published_sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sdram.v",
+      "original_sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+      "published_sha256": "bd1b618a3868233fa6fdfb8909c62a47ada1909a50783e68e6dcbc9791493d06",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sdram.vhd",
+      "original_sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705",
+      "published_sha256": "8244bb590223beb4091be0c041f1b977cd8c262c4d6089fec6130beb9dd8a3d0",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "original_sha256": "080f09567af222192413dc6ee75c9fda3accbfc9b79444d3c779d8b6946086b5",
+      "published_sha256": "080f09567af222192413dc6ee75c9fda3accbfc9b79444d3c779d8b6946086b5",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sys_pll.v",
+      "original_sha256": "4a410fc8776c9c116695b7dd8a84012317f9d88aa654b8287a89bdc1f88d0b4e",
+      "published_sha256": "f87a91538153187b522149ecded03b7d84d54d172b0de45bb2809b6629cc1203",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "original_sha256": "ec237133a9ef4b2bf806d3c4514420ed0db3b6b556c563dad6e2c5746116b3e0",
+      "published_sha256": "11967fd71f7d8694d4bc29451cef700f0daf67c4c9d7d4bccc4b96989863c07a",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/video_pll.ipc",
+      "original_sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076",
+      "published_sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/video_pll.v",
+      "original_sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+      "published_sha256": "bfa61a81b135684b80ed7e0ad800f80db995d396fbacdbb2a701df6830ff1b91",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/IP/video_pll.vhd",
+      "original_sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "published_sha256": "fbbd6e01b3baf5d97eb335e3fe838dfeac9e4bead25a28b390f73d7a92781152",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_bitbuffer.v",
+      "original_sha256": "b4cfe631350b982e3f348610999f94596f9ec4cdc911799030af535adf58bf22",
+      "published_sha256": "b4cfe631350b982e3f348610999f94596f9ec4cdc911799030af535adf58bf22",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_core.v",
+      "original_sha256": "0062463bde0ca4ac5036e89b9f4b20d79846824edad8e97104d9ba7121b3d315",
+      "published_sha256": "0062463bde0ca4ac5036e89b9f4b20d79846824edad8e97104d9ba7121b3d315",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dht_std_cx_ac.v",
+      "original_sha256": "b3a64b9576cc88ef6127f8ced66007437089f9eb64f4891d1a058932f9eb518a",
+      "published_sha256": "b3a64b9576cc88ef6127f8ced66007437089f9eb64f4891d1a058932f9eb518a",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dht_std_cx_dc.v",
+      "original_sha256": "eea1c4a670e2b4920944faf63fa24e93c37c8d5c22ae059b494d85cb90ba729b",
+      "published_sha256": "eea1c4a670e2b4920944faf63fa24e93c37c8d5c22ae059b494d85cb90ba729b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dht_std_y_ac.v",
+      "original_sha256": "bf4597ee2f7386adf503ae5d00081fcc9aeecb21d66a88c210140c8b6790c559",
+      "published_sha256": "bf4597ee2f7386adf503ae5d00081fcc9aeecb21d66a88c210140c8b6790c559",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dht_std_y_dc.v",
+      "original_sha256": "5275231a2ac4f2dd47a4f42109fa8d0e7a8e045eab729f5852c855628e6e68bf",
+      "published_sha256": "5275231a2ac4f2dd47a4f42109fa8d0e7a8e045eab729f5852c855628e6e68bf",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dht.v",
+      "original_sha256": "fbd890def4b7ac3effb38b7da52f544311759f091bf62d5fe29cb5dc16c53d5f",
+      "published_sha256": "fbd890def4b7ac3effb38b7da52f544311759f091bf62d5fe29cb5dc16c53d5f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_dqt.v",
+      "original_sha256": "e99bb750bf20903b9cf80407aa1e8274170296c3366e43be0030265a08afcb99",
+      "published_sha256": "e99bb750bf20903b9cf80407aa1e8274170296c3366e43be0030265a08afcb99",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_fifo.v",
+      "original_sha256": "487d095dc70369d4bb7c9a27e6f27cc4db082b95e9bb6ce13292dc31fb2cf5e0",
+      "published_sha256": "487d095dc70369d4bb7c9a27e6f27cc4db082b95e9bb6ce13292dc31fb2cf5e0",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_ram_dp.v",
+      "original_sha256": "191622cc6447224294c1cfe98aef9fbb329b3a8b00932ed1b33920e90d2b61ea",
+      "published_sha256": "191622cc6447224294c1cfe98aef9fbb329b3a8b00932ed1b33920e90d2b61ea",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_ram.v",
+      "original_sha256": "e5b95dd53fa8a8e8138bd400ced622f9f39f0aadd8ee1af79e6929f8f1d2b20f",
+      "published_sha256": "e5b95dd53fa8a8e8138bd400ced622f9f39f0aadd8ee1af79e6929f8f1d2b20f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_transpose_logic_ram.v",
+      "original_sha256": "8c527b21e399e0e950c94e74417ce52751eb76cac52344b33d93303c97c49684",
+      "published_sha256": "8c527b21e399e0e950c94e74417ce52751eb76cac52344b33d93303c97c49684",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_transpose_ram.v",
+      "original_sha256": "308e4b0791ee562ca87c7fc923d34f0aff51064d188fea703a1bbf94903be45e",
+      "published_sha256": "308e4b0791ee562ca87c7fc923d34f0aff51064d188fea703a1bbf94903be45e",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_transpose.v",
+      "original_sha256": "e4d3f6ab7f70781be95bf5c5e74cfe44ad5f3060ef2b5dcd8c1049f6845138e7",
+      "published_sha256": "e4d3f6ab7f70781be95bf5c5e74cfe44ad5f3060ef2b5dcd8c1049f6845138e7",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_x.v",
+      "original_sha256": "14b29d01930d68bd2ea3f28060ad008e7204cdde6100d43e3949522fe9323914",
+      "published_sha256": "14b29d01930d68bd2ea3f28060ad008e7204cdde6100d43e3949522fe9323914",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct_y.v",
+      "original_sha256": "58b15a0afaefd830e9cf61a0a7bab17f87f69d74d632a6a9ec755d76f8e0abe2",
+      "published_sha256": "58b15a0afaefd830e9cf61a0a7bab17f87f69d74d632a6a9ec755d76f8e0abe2",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_idct.v",
+      "original_sha256": "3635c2b1d9421a69e389c388d40c4171790d7898ca04bc37401b2f0cd55469ce",
+      "published_sha256": "3635c2b1d9421a69e389c388d40c4171790d7898ca04bc37401b2f0cd55469ce",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_input.v",
+      "original_sha256": "b49e4b133852428e245fbeb88f39b3d29ef0e73629a0fc894348d6d1e172aadd",
+      "published_sha256": "b49e4b133852428e245fbeb88f39b3d29ef0e73629a0fc894348d6d1e172aadd",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_mcu_id.v",
+      "original_sha256": "450c780bf08b337238395c8c4b2cd1e9a075b4b2f0a1398e41110238f01859b9",
+      "published_sha256": "450c780bf08b337238395c8c4b2cd1e9a075b4b2f0a1398e41110238f01859b9",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_mcu_proc.v",
+      "original_sha256": "cfd8b35fe75a29c02950f5cfcc1493419bee6da155d253d0062aff91493d43af",
+      "published_sha256": "cfd8b35fe75a29c02950f5cfcc1493419bee6da155d253d0062aff91493d43af",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_output_cx_ram.v",
+      "original_sha256": "d82bbc1fbf0af82b4af951637f30954268571b4f881304b55b7f4c1fde9a0250",
+      "published_sha256": "d82bbc1fbf0af82b4af951637f30954268571b4f881304b55b7f4c1fde9a0250",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_output_fifo.v",
+      "original_sha256": "66cde6db3c4f8c8b64ab35f80c7ef0b383b13d3e395114b9cff5e7ba0d22be72",
+      "published_sha256": "66cde6db3c4f8c8b64ab35f80c7ef0b383b13d3e395114b9cff5e7ba0d22be72",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_output_y_ram.v",
+      "original_sha256": "4ea4afeed9909b6ea509a42d20778375b76c0827b68b7a811b985d1256cf951b",
+      "published_sha256": "4ea4afeed9909b6ea509a42d20778375b76c0827b68b7a811b985d1256cf951b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/jpeg_output.v",
+      "original_sha256": "b9539ff30324ca6a6ffceedfaf0a865bcb16dd6948cecf2899f8bd8126cb012d",
+      "published_sha256": "b9539ff30324ca6a6ffceedfaf0a865bcb16dd6948cecf2899f8bd8126cb012d",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg/LICENSE",
+      "original_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "published_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/jpeg420_word_address.v",
+      "original_sha256": "3b8c2a641e23711826cbf51f2b0ce343e92e3f0a80b45b69906754e017c7f175",
+      "published_sha256": "3b8c2a641e23711826cbf51f2b0ce343e92e3f0a80b45b69906754e017c7f175",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/key_remove_shakes.v",
+      "original_sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "published_sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "original_sha256": "ab24f9ee394d3e565ea1f7b6dc76058f285b12c5f39aaaea1805ede9b69055b0",
+      "published_sha256": "ab24f9ee394d3e565ea1f7b6dc76058f285b12c5f39aaaea1805ede9b69055b0",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/mjp_file_reader.v",
+      "original_sha256": "cad1b31de5c3b62f482ec5bed8db8eca802621f315d5d4a525db3411bf737018",
+      "published_sha256": "cad1b31de5c3b62f482ec5bed8db8eca802621f315d5d4a525db3411bf737018",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_adjust_control.v",
+      "original_sha256": "4f3bfdd9d36727473c415b23685c393a4c83755bceee3bc007b43d7ac652763b",
+      "published_sha256": "4f3bfdd9d36727473c415b23685c393a4c83755bceee3bc007b43d7ac652763b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_adjust_osd.v",
+      "original_sha256": "af456d056e7f4e45250e8c30a4021da78e066226d05d09f4118b43f031a29063",
+      "published_sha256": "af456d056e7f4e45250e8c30a4021da78e066226d05d09f4118b43f031a29063",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_audio_probe.v",
+      "original_sha256": "21179cd7a4c7e27a2ae19e4bd16a08c0f48f3c4f9902dcc150ec312368b2ae69",
+      "published_sha256": "21179cd7a4c7e27a2ae19e4bd16a08c0f48f3c4f9902dcc150ec312368b2ae69",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_dynamic_text.v",
+      "original_sha256": "278fa20b3ab3aa4bdd02dd4d9f8fb17b8fe56c28589374fb169eb9a9a6dac886",
+      "published_sha256": "278fa20b3ab3aa4bdd02dd4d9f8fb17b8fe56c28589374fb169eb9a9a6dac886",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_osd_state.v",
+      "original_sha256": "5dc4cb7eca4acd2aced6aba341608c107bb7d99d5971922b9710bf63ad72c3a7",
+      "published_sha256": "5dc4cb7eca4acd2aced6aba341608c107bb7d99d5971922b9710bf63ad72c3a7",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_osd.v",
+      "original_sha256": "8c2c4a66a9b76f336737bee32cb7619cf1007f42d1249ffe0b7a74407c99024a",
+      "published_sha256": "8c2c4a66a9b76f336737bee32cb7619cf1007f42d1249ffe0b7a74407c99024a",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_pcm_waveform.v",
+      "original_sha256": "98c1106c1d8cf6b22c39c67a844e04b88b3d5f593d4b2e3d460bd59b715da5ba",
+      "published_sha256": "98c1106c1d8cf6b22c39c67a844e04b88b3d5f593d4b2e3d460bd59b715da5ba",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_rgb_adjust.v",
+      "original_sha256": "5dbe265ffd13b73563c1e374b54a106e79640a8d794458faf2202235d3478739",
+      "published_sha256": "5dbe265ffd13b73563c1e374b54a106e79640a8d794458faf2202235d3478739",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_spectrum_analyzer.v",
+      "original_sha256": "2edfffb8678fe071428f62f0325ecb6a2e35a7568d84e766f87257f9d486c98e",
+      "published_sha256": "2edfffb8678fe071428f62f0325ecb6a2e35a7568d84e766f87257f9d486c98e",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_spectrum_bands.vh",
+      "original_sha256": "7681a4aaae6fea83ec28cc94c8a9fdf816a17cacf8ee720200e138803b8fef4d",
+      "published_sha256": "7681a4aaae6fea83ec28cc94c8a9fdf816a17cacf8ee720200e138803b8fef4d",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_video_schedule.v",
+      "original_sha256": "e40f6788061d5b37f459c26810c06032b0753bbc0e6ee445024d4a366c003ecc",
+      "published_sha256": "e40f6788061d5b37f459c26810c06032b0753bbc0e6ee445024d4a366c003ecc",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/player_wipe_address.v",
+      "original_sha256": "8712e3490c0ec01fdf1a719bb74eee2bc2d7269ae51119e338f0eb0fbd143f4f",
+      "published_sha256": "8712e3490c0ec01fdf1a719bb74eee2bc2d7269ae51119e338f0eb0fbd143f4f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/rgb565_word_codec.v",
+      "original_sha256": "971ab7800db69c06c078160c010778ef4b208620e005e150301e3a4b857b5021",
+      "published_sha256": "971ab7800db69c06c078160c010778ef4b208620e005e150301e3a4b857b5021",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/rgb888_word_codec.v",
+      "original_sha256": "414a74a76a828b45f9baa2f0c56f5f80d5c6311b21001e309246d2f60a333552",
+      "published_sha256": "414a74a76a828b45f9baa2f0c56f5f80d5c6311b21001e309246d2f60a333552",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/ax_debounce.v",
+      "original_sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "published_sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/bmp_read.v",
+      "original_sha256": "ca3f998fc71b06c9409d2f21f47136bb2dcfe9bf56dcb033da63b431fcbe68f1",
+      "published_sha256": "ca3f998fc71b06c9409d2f21f47136bb2dcfe9bf56dcb033da63b431fcbe68f1",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/color_bar.v",
+      "original_sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "published_sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "original_sha256": "15374fcde4bb47e965b283df92112e168ba8b0a569f06ef9118a85addbcf715a",
+      "published_sha256": "15374fcde4bb47e965b283df92112e168ba8b0a569f06ef9118a85addbcf715a",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "original_sha256": "18fcda0a193f857f537f199813d501a35a86529ccb9ac7d52f32e41e57827f1b",
+      "published_sha256": "18fcda0a193f857f537f199813d501a35a86529ccb9ac7d52f32e41e57827f1b",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/frame_read_write.v",
+      "original_sha256": "ae65501f4d915f297674265659c24fef88ea37ce3e2cc8c362e5b0bdac697b1c",
+      "published_sha256": "ae65501f4d915f297674265659c24fef88ea37ce3e2cc8c362e5b0bdac697b1c",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "original_sha256": "cd4e975f9e4acdc6545317df0fce7f5370c085a5b9a585b8effb7bc3e9c7f903",
+      "published_sha256": "cd4e975f9e4acdc6545317df0fce7f5370c085a5b9a585b8effb7bc3e9c7f903",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "original_sha256": "2b5250da3ce13a7d7c83a9af3d152fb1fb97357377205be4abed01644cf4ef45",
+      "published_sha256": "2b5250da3ce13a7d7c83a9af3d152fb1fb97357377205be4abed01644cf4ef45",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "original_sha256": "447d3efc58e2ea366c9d0468499a37142d70939c3f7e670d45f1ad4d7d4c683f",
+      "published_sha256": "447d3efc58e2ea366c9d0468499a37142d70939c3f7e670d45f1ad4d7d4c683f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/sd_card_top.v",
+      "original_sha256": "8e04938b8097c081c4056456b5e3b16cfa23e66805f379900d90cded235c8ade",
+      "published_sha256": "8e04938b8097c081c4056456b5e3b16cfa23e66805f379900d90cded235c8ade",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/sdram.v",
+      "original_sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "published_sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/seg_decoder.v",
+      "original_sha256": "62a2664be7db6d0dace31fc97a8faef0c43f44b639b1d5a6a2c49773812a3b5e",
+      "published_sha256": "62a2664be7db6d0dace31fc97a8faef0c43f44b639b1d5a6a2c49773812a3b5e",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/seg_scan.v",
+      "original_sha256": "c61d6b6808e06dd0edc6db2d8f214426a1fb96d546556ecd1f74ea9ca6889f52",
+      "published_sha256": "c61d6b6808e06dd0edc6db2d8f214426a1fb96d546556ecd1f74ea9ca6889f52",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/spi_master.v",
+      "original_sha256": "923183eb08380f161da8f0dfbc5b3dada2c4dc0c547ac24c9c7de3689e337484",
+      "published_sha256": "923183eb08380f161da8f0dfbc5b3dada2c4dc0c547ac24c9c7de3689e337484",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/video_define.v",
+      "original_sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "published_sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/video_delay.v",
+      "original_sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "published_sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/SD/video_timing_data.v",
+      "original_sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "published_sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/spectrum_coeff_rom_manifest.json",
+      "original_sha256": "31a61e039e5b83bce3b73cc2d015bf92e0c3773071dcfa8385e2aea970a61ee1",
+      "published_sha256": "3fffd30f248dc4413e1e7a2fa70fcd1b252361a0a8e73218324388aca8b8d1a1",
+      "changes": [
+        "Generator output path made relative; ROM configuration and data unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/spectrum_coeff_rom.v",
+      "original_sha256": "975f99493b1a2d47e9131f0be6b61154cc8d31e6d4017e3bf2515f63cb6fdd04",
+      "published_sha256": "975f99493b1a2d47e9131f0be6b61154cc8d31e6d4017e3bf2515f63cb6fdd04",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/spectrum_hann.mem",
+      "original_sha256": "56541dd5f3fb244efbf913046049b82e15da33484e61ffead975c35beff69f3f",
+      "published_sha256": "56541dd5f3fb244efbf913046049b82e15da33484e61ffead975c35beff69f3f",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/spectrum_twiddle.mem",
+      "original_sha256": "c760d33a88c692b2ea87a748cec155e94a97bdfbe2176fd9e64d666b90edc772",
+      "published_sha256": "c760d33a88c692b2ea87a748cec155e94a97bdfbe2176fd9e64d666b90edc772",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/startup_pulse.v",
+      "original_sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "published_sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/status_hex595.v",
+      "original_sha256": "aff2a8b7eb9ccb6d5e2785728dce86bd8e87c4a96f33c20fa4b08fdc151852b9",
+      "published_sha256": "aff2a8b7eb9ccb6d5e2785728dce86bd8e87c4a96f33c20fa4b08fdc151852b9",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/tf_bmp_file_player.v",
+      "original_sha256": "e46169101374f6d28094d4ad408ff7f2b399908d0cb6fa30e613edebe5fe5ab4",
+      "published_sha256": "e46169101374f6d28094d4ad408ff7f2b399908d0cb6fa30e613edebe5fe5ab4",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/tf_wav_file_player.v",
+      "original_sha256": "94e151e069d55f0b34943d8fc8213edaf4c57d8f047497576be4cbec0f3b5f84",
+      "published_sha256": "94e151e069d55f0b34943d8fc8213edaf4c57d8f047497576be4cbec0f3b5f84",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/tf_wav_player.v",
+      "original_sha256": "cf4c37013d41734806bfa444f0e7998183c0ce3e00333f964380fcea2261f27e",
+      "published_sha256": "cf4c37013d41734806bfa444f0e7998183c0ce3e00333f964380fcea2261f27e",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "original_sha256": "8b44c9f6e3e45a7e4c57995b05e927cc757776a91e8f08078ab703d7dc49a1c4",
+      "published_sha256": "8b44c9f6e3e45a7e4c57995b05e927cc757776a91e8f08078ab703d7dc49a1c4",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "original_sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "published_sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/video_source_test.v",
+      "original_sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "published_sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/hdl_source/wav_pcm_bridge.v",
+      "original_sha256": "1e4327196e68140b2858a99bad2d91096d0b745bb2bf92e1ec89f69e1939a84a",
+      "published_sha256": "1e4327196e68140b2858a99bad2d91096d0b745bb2bf92e1ec89f69e1939a84a",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/ip_source/pll.ipc",
+      "original_sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e",
+      "published_sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e",
+      "changes": []
+    },
+    {
+      "path": "fpga/src/user_source/ip_source/pll.v",
+      "original_sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+      "published_sha256": "4ebcf754867ad30067369fb16a934da346f5904c626c299885b0ac5dad111bb2",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    },
+    {
+      "path": "fpga/src/user_source/ip_source/pll.vhd",
+      "original_sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4",
+      "published_sha256": "2dfc84d114ed45f013df2b4fad506f8a00688569f4d4ef7640d094ced6afef58",
+      "changes": [
+        "Generated-file path comment made portable; HDL tokens unchanged"
+      ]
+    }
+  ]
+}

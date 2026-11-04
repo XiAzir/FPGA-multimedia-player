@@ -1,0 +1,11 @@
+fpga/build/
+__pycache__/
+*.pyc
+*.db
+*.vcd
+*.wlf
+*.vvp
+.env
+*.lic
+license.dat
+TF_ROOT/

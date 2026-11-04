@@ -1,0 +1,20 @@
+{
+  "version": "00C14116",
+  "seed": 2,
+  "status": "OFFLINE_TIMING_PASS_BOARD_PENDING",
+  "board_status": "PENDING",
+  "run_id": "20261103_202625_520_seed2",
+  "bit": "c14116_seed2.bit",
+  "bytes": 634280,
+  "sha256": "c495c39ef41427330c391c106ded7192ab6bc0b5b0ed879b5f91e58783af212a",
+  "timing": {
+    "setup_tns_ns": 0.0,
+    "hold_wns_ns": 0.027,
+    "setup_wns_ns": 0.804,
+    "hold_tns_ns": 0.0
+  },
+  "inputs_unchanged": true,
+  "gate_sha256": "555a296be2dd2f403c53ec5b9d39a38145517b61a5460466808b69917df7e0f5",
+  "source_scope_sha256": "1f6d525ff7ebafc768f142aa3ad255e82c9ea937547041f7cc49c2c0fe6ecc8e",
+  "note": "仅 placement seed 与同版 seed1 不同；离线布局布线与时序通过，未新增功能测试，板上验证待进行。"
+}

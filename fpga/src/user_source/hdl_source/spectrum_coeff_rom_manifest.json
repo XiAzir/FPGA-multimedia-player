@@ -1,0 +1,137 @@
+{
+  "roms": [
+    {
+      "instance": "u_hann_low",
+      "lane_width": 9,
+      "depth": 1024,
+      "words_nonzero": 1020,
+      "word_sha256_be32": "1c712da62a5934d3ac75b855cf90893a03a236697b01ead065b7ea4ab5960d3e",
+      "init_count": 32,
+      "initp_count": 4
+    },
+    {
+      "instance": "u_hann_high",
+      "lane_width": 9,
+      "depth": 1024,
+      "words_nonzero": 942,
+      "word_sha256_be32": "391e9b0d2fdb3a0d8ffa004f93ac15e676f43709db0b24cc07b4f933bf0739de",
+      "init_count": 32,
+      "initp_count": 4
+    },
+    {
+      "instance": "u_twiddle_low",
+      "lane_width": 18,
+      "depth": 512,
+      "words_nonzero": 512,
+      "word_sha256_be32": "8f3c7aa49f84b689cf60d9e97c6e4b85700fa17be8c306149a71d087fa045d00",
+      "init_count": 32,
+      "initp_count": 4
+    },
+    {
+      "instance": "u_twiddle_high",
+      "lane_width": 18,
+      "depth": 512,
+      "words_nonzero": 511,
+      "word_sha256_be32": "5870f27ab4e323523d250e1a00fdd074404af3b6e523054ea400094d3d3246a8",
+      "init_count": 32,
+      "initp_count": 4
+    }
+  ],
+  "source_sha256": {
+    "hann": "56541dd5f3fb244efbf913046049b82e15da33484e61ffead975c35beff69f3f",
+    "twiddle": "c760d33a88c692b2ea87a748cec155e94a97bdfbe2176fd9e64d666b90edc772"
+  },
+  "inferred_read_control_mapping": {
+    "reference": "C11304 inferred EG_PHY_BRAM gate: player_spectrum/build/manual/AC201_tf_hdmi_gate.v",
+    "hann": {
+      "mode": "SP8K",
+      "data_width_a_b": 9,
+      "enable": "CEA=ST_WIN_REQ; CEB mux=0",
+      "clock": "CLKA/CLKB=clk, CLK muxes=SIG",
+      "cs_muxes": "CSA/CSB all constant 1",
+      "output": "DOA=lane[8:0], DOB unused",
+      "control_parameters": {
+        "CEAMUX": "SIG",
+        "CEBMUX": "0",
+        "CLKAMUX": "SIG",
+        "CLKBMUX": "SIG",
+        "CSA0": "1",
+        "CSA1": "1",
+        "CSA2": "1",
+        "CSB0": "1",
+        "CSB1": "1",
+        "CSB2": "1",
+        "OCEAMUX": "1",
+        "OCEBMUX": "0",
+        "RSTAMUX": "0",
+        "RSTBMUX": "0",
+        "WEAMUX": "0",
+        "WEBMUX": "0"
+      },
+      "port_connections": {
+        "addra": "{hann_addr,3'b111}",
+        "addrb": "13'b0",
+        "cea": "hann_en",
+        "ceb": "1'b0",
+        "clka_clkb": "clk",
+        "ocea_oceb": "1'b1/1'b0",
+        "csa_csb": "3'b111/3'b111",
+        "wea_web": "1'b0/1'b0",
+        "rsta_rstb": "1'b0/1'b0",
+        "dia_dib": "9'b0/9'b0",
+        "doa_dob": "lane[8:0]/open"
+      }
+    },
+    "twiddle": {
+      "mode": "PDPW8K",
+      "data_width_a_b": 18,
+      "enable": "CEAMUX=0; CEBMUX=1; CSA2/CSB2=ST_FFT_ISSUE",
+      "clock": "CLKA/CLKB=clk, CLK muxes=SIG",
+      "cs_muxes": "CSA0/1 and CSB0/1=1; CSA2/CSB2=SIG",
+      "write_muxes": "WEAMUX=1; WEBMUX=0; CEAMUX=0 as in inferred ROM",
+      "output": "DOA=lane[8:0], DOB=lane[17:9]",
+      "control_parameters": {
+        "CEAMUX": "0",
+        "CEBMUX": "1",
+        "CLKAMUX": "SIG",
+        "CLKBMUX": "SIG",
+        "CSA0": "1",
+        "CSA1": "1",
+        "CSA2": "SIG",
+        "CSB0": "1",
+        "CSB1": "1",
+        "CSB2": "SIG",
+        "OCEAMUX": "1",
+        "OCEBMUX": "1",
+        "RSTAMUX": "0",
+        "RSTBMUX": "0",
+        "WEAMUX": "1",
+        "WEBMUX": "0"
+      },
+      "port_connections": {
+        "addra_addrb": "{twiddle_addr,4'b1111}",
+        "cea_ceb": "1'b0/1'b1 (mux-selected constants)",
+        "clka_clkb": "clk",
+        "ocea_oceb": "1'b1/1'b1",
+        "csa_csb": "{twiddle_en,2'b00}/{twiddle_en,2'b00}",
+        "wea_web": "1'b1/1'b0 (WE mux selects constants)",
+        "rsta_rstb": "1'b0/1'b0",
+        "dia_dib": "9'b0/9'b0",
+        "doa_dob": "lane[8:0]/lane[17:9]"
+      }
+    },
+    "shared": {
+      "oce_a_b": "1 for twiddle; Hann A=1/B=0",
+      "regmode_a_b": "NOREG",
+      "gsr": "ENABLE",
+      "resetmode": "ASYNC",
+      "async_reset_release": "SYNC",
+      "reset_mux_a_b": "0",
+      "write_mode_a_b": "NORMAL",
+      "readback": "OFF",
+      "init_file": "NONE"
+    },
+    "scope_note": "Configuration and INIT data mirror the inferred C11304 gate mapping; this static manifest does not prove silicon behavior."
+  },
+  "output": "spectrum_coeff_rom.v"
+}
