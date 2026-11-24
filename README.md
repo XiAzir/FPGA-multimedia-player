@@ -86,3 +86,13 @@ pwsh -NoProfile -File fpga/scripts/build_candidate.ps1 -Stage bitstream
 ## 代码与IP
 
 JPEG解码基于Ultra-Embedded Baseline JPEG Decoder，Apache-2.0许可证保留在源码目录。HDMI发送、SDRAM及其他厂商模块保留其原始版权声明。本仓库包含不同来源的工程文件，各文件按其上游条款使用；未对混合工程额外指定统一开源许可证。工具安装包、许可证密钥与个人缓存均未纳入发布。
+
+## 工程与文档双仓架构
+
+本项目在长周期硬件开发与板端联调过程中，采用**交付展示仓 + 工程代码仓 + 硬件资料仓**分离的组织方式，配合薄 `AGENTS.md` 与任务按需读取路由，避免长会话上下文膨胀并保障跨会话稳定接续：
+
+| 仓库 | 角色定位 | 核心内容 |
+| --- | --- | --- |
+| **[FPGA-multimedia-player](https://github.com/XiAzir/FPGA-multimedia-player)**（本仓） | 最终交付与复现展示仓 | 面向评审与复现的完整说明、最终位流 `c14116_seed2.bit` 及资源/时序收敛结果（LUT 17,561/19,600、BRAM 62/64、DSP 26/29、Setup `+0.804 ns` / Hold `+0.027 ns`、`TNS = 0`） |
+| **[FPGA-ANLU](https://github.com/XiAzir/FPGA-ANLU)** | 主工程源码与构建仓 | 薄 `AGENTS.md` + 任务按需读取路由表，以及 `bringup/`、`build/`、`deliverables/`、`development/`、`planning/`、`scripts/` 全周期工程目录 |
+| **[FPGA-ANLU-docs](https://github.com/XiAzir/FPGA-ANLU-docs)** | 独立硬件资料与留档仓 | 板卡引脚约束、开发约定、阶段开发排障记录与跨会话接续入口 `当前状态.md` |
